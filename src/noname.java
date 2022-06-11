@@ -10,7 +10,7 @@ public class noname {
             Matcher matcher = pattern.matcher(Integer.toString(aCount));//где ищем число acount
             if (matcher.find()) { //find ищет вхождение pattern.matcher если есть то тру, если нет то переходит дальше
                 strBuilder.append("+7(926)").append(matcher.group(1)).append("-").append(matcher.group(2)).append(";");
-                //если тру, то сначала добавляется +7(926),
+                //если тру, то сначала добавляется +7(926),бебе
             }
         }
 
