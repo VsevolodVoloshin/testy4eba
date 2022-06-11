@@ -14,7 +14,7 @@ public class noname {
             }
         }
 
-        pattern = Pattern.compile("(\\d[0]{2})-([0]{4})");
+        pattern = Pattern.compile("(\\d[0]{2})-([0]{4})");//vetka22
         Matcher matcher2 = pattern.matcher(strBuilder);
         while (matcher2.find()) {
             System.out.println("+7 (926) " + matcher2.group(1) + "-" + matcher2.group(2) + "; ");}
